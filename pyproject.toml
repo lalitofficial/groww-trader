@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groww-trader"
+version = "0.1.0"
+description = "Intraday trading helper scaffolding for the Groww Trading API."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.115.0",
+    "growwapi>=1.5.0",
+    "httpx>=0.28.0",
+    "backtesting>=0.6.5",
+    "pandas>=2.2.3",
+    "pandas-ta-classic>=0.5.44",
+    "pyotp>=2.9.0",
+    "python-dotenv>=1.0.1",
+    "pytest>=8.3.0",
+    "requests>=2.32.3",
+    "uvicorn[standard]>=0.32.0",
+]
+
+[project.scripts]
+groww-trader = "groww_trader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

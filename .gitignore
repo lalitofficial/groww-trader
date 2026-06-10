@@ -1,0 +1,15 @@
+.env
+.venv/
+node_modules/
+.next/
+data/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+plan-admin.md
+.DS_Store
