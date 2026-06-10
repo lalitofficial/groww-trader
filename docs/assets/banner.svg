@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="Groww AI Swing Trader">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#0f2236"/>
+      <stop offset="100%" stop-color="#0b3d2e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="280" fill="url(#bg)"/>
+  <g opacity="0.25" stroke="#64748b" stroke-width="1">
+    <line x1="0" y1="70" x2="1280" y2="70"/>
+    <line x1="0" y1="140" x2="1280" y2="140"/>
+    <line x1="0" y1="210" x2="1280" y2="210"/>
+  </g>
+  <polyline points="40,220 160,190 280,205 400,150 520,170 640,110 760,135 880,80 1000,105 1120,55 1240,70"
+            fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#22c55e">
+    <rect x="152" y="170" width="16" height="44" rx="3"/>
+    <rect x="392" y="128" width="16" height="48" rx="3"/>
+    <rect x="632" y="92" width="16" height="42" rx="3"/>
+    <rect x="872" y="60" width="16" height="44" rx="3"/>
+  </g>
+  <g fill="#ef4444">
+    <rect x="272" y="182" width="16" height="46" rx="3"/>
+    <rect x="512" y="148" width="16" height="44" rx="3"/>
+    <rect x="752" y="112" width="16" height="46" rx="3"/>
+    <rect x="992" y="82" width="16" height="46" rx="3"/>
+  </g>
+  <text x="640" y="150" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#f8fafc">Groww AI Swing Trader</text>
+  <text x="640" y="196" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#94a3b8">12+ indicators · multi-factor signals · cost-aware backtesting · AI analyst</text>
+</svg>
